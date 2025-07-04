@@ -1,10 +1,6 @@
-from idlelib.undo import Command
-from mailbox import Message
-
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
 from keyboards.inline import country_kb1, country_kb2, russia_kb,usa_kb,italy_kb,spain_kb,china_kb,brasil_kb,yes_no_kb
-from aiogram.types import InputMediaPhoto
 
 
 callback_router = Router()
